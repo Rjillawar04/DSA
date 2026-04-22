@@ -9,7 +9,7 @@ public class ArraylistStringpronblem {
     list.add("World");
 
     System.out.println("Original Arraylist"+list);
-    Collections.sort(list );
+    Collections.sort(list , Collections.reverseOrder());
     System.out.println("Sorted List "+list);
    } 
 }
